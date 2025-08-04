@@ -4,6 +4,10 @@ module.exports = {
   content: ['./src/**/*.{html,js}'],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['DM Sans', 'system-ui', 'sans-serif'],
+        serif: ['DM Serif Text', 'Georgia', 'serif'],
+      },
       keyframes: {
         slideIn: {
           '0%': {
